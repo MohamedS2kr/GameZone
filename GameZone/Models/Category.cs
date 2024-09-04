@@ -2,6 +2,6 @@
 {
     public class Category : BaseEntity
     {
-        public string Name { get; set; }
+        public ICollection<Games> Games { get; set; } = new List<Games>();
     }
 }
