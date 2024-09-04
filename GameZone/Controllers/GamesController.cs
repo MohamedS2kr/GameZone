@@ -2,7 +2,7 @@
 
 namespace GameZone.Controllers
 {
-    public class GamesController1 : Controller
+    public class GamesController : Controller
     {
         public IActionResult Index()
         {
